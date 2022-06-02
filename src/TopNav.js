@@ -23,7 +23,7 @@ export default function TopNav() {
             <Link to="/" className='navA'><li>Home</li></Link>
             <Link to="/aboutme" className='navA'><li>About Me</li></Link>
             <Link to="/designs" className='navA'><li>My Designs</li></Link>
-            <Link href="/projects" className='navA'><li>My Projects</li></Link>
+            <Link to="/projects" className='navA'><li>My Projects</li></Link>
           </ul>
             
             <Link to="/message"> <button className='px-4 py-2 text-sm'>Leave a Message</button></Link>
