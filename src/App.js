@@ -47,7 +47,7 @@ function App() {
             <>
               <TopNav />
                 <Message />
-                
+                <Footer />
             </>} />
 
         </Routes>

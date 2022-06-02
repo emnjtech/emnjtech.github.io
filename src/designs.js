@@ -6,7 +6,7 @@ import React from 'react';
 export default function Designs() {
     return (
 
-        <div className=" mx-auto h-[inherit]">
+        <div className=" mx-auto  h-full w-[80%]">
            
             <div className="grid-cols-3 p-20 space-y-2  lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
                 <div className="w-full rounded">

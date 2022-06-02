@@ -69,9 +69,9 @@ const handleChange = (e) => {
          <h1 className='text-2xl md:text-2xl font-bold  px-4 py-4 text-slate-500 grad9'> Leave me a Message </h1>
          <form onSubmit={onSubmit }>
   
-    <div className='flex w-full mb-[15px] h-12 grad8'>
-    <div className="p-[10px] bg-slate-300 min-w-[50px] text-center"><AtSymbolIcon className='text-blue-700'/></div>
-    <input type="email" className="peer... w-full md:w-full h-full px-5  text-left " 
+    <div className='flex w-full mb-[15px] h-12 grad8 bg-white rounded-full'>
+    <div className="p-[10px] bg-white min-w-[50px] rounded-full text-center"><AtSymbolIcon className='text-blue-700'/></div>
+              <input type="email" className="peer... w-full md:w-full h-full px-5  text-left rounded-full focus:border-0 outline-none" 
     placeholder='Enter your E-mail address...'
     name='from_name'
     value={toSend.from_name}
@@ -84,9 +84,9 @@ const handleChange = (e) => {
     </p>
    
 
-    <div className='flex md:w-full mb-[15px] h-12 grad7'>
-    <div className="p-[10px] bg-slate-300 min-w-[50px] text-center"><MailIcon className='text-blue-700'/></div>
-    <input type="text" className=" w-full md:w-full h-full  text-left px-5" 
+            <div className='flex md:w-full mb-[15px] h-12 grad7 bg-white rounded-full '>
+              <div className="p-[10px]  min-w-[50px] text-center bg-white rounded-full"><MailIcon className='text-blue-700'/></div>
+              <input type="text" className=" w-full md:w-full h-full  text-left px-5 rounded-full focus:border-0 outline-none"  
     placeholder='Enter mail subject...'
     name='subject'
     value={toSend.subject}
@@ -96,9 +96,9 @@ const handleChange = (e) => {
 
     </div>
         <br/>
-   <div className='flex md:w-full w-full mb-[15px] h-28 grad8 '>
-    <div className="p-[10px] bg-slate-300 min-w-[50px] text-center"><DocumentTextIcon className='text-blue-700'/></div>
-    <input type="textarea" className="peer ... w-full md:w-full h-28 px-5  text-left " 
+            <div className='flex md:w-full w-full mb-[15px] h-28 grad8 bg-white rounded-full'>
+              <div className="p-[10px] min-w-[50px] text-center bg-white rounded-full my-auto "><DocumentTextIcon className='text-blue-700  '/></div>
+              <input type="textarea" className="peer w-full md:w-full h-28 px-5  text-left  rounded-full focus:border-0 outline-none" 
     placeholder='Enter mail body...'
     name='message'
     value={toSend.message}
