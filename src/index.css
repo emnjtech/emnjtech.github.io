@@ -1,0 +1,307 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-2 pr-4
+  }
+
+  button {
+    @apply text-slate-400  border-slate-600 border-2 hover:bg-slate-500 hover:text-white rounded-md transition
+  }
+
+}
+a{
+  color: none !important;
+}
+
+.grad{
+
+position: relative;
+ 
+ -webkit-animation: slideIn 2s forwards;
+ -moz-animation: slideIn 2s forwards;
+ animation: slideIn 2s forwards;
+ 
+ }
+ .slide {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   opacity: 1;
+   transition: opacity ease-in-out 0.4s;
+ }
+ .btn-slide {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background: #f1f1f1;
+   border: 1px solid rgba(34, 34, 34, 0.287);
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+ }
+ .grad2 {
+
+  position: relative;
+ 
+   -webkit-animation: slideIn 3.5s forwards;
+   -moz-animation: slideIn 3.5s forwards;
+   animation: slideIn 3.5s forwards;
+
+ }
+ .grad3 {
+
+   position: relative;
+   
+   -webkit-animation: slideIn 4s forwards;
+   -moz-animation: slideIn 4s forwards;
+   animation: slideIn 4s forwards;
+
+ }
+ .grad4 {
+
+   position: relative;
+
+   -webkit-animation: slideIn 4.3s forwards;
+   -moz-animation: slideIn 4.3s forwards;
+   animation: slideIn 4.3s forwards;
+ }
+
+    .grad5 {
+  
+      position: relative;
+    
+      -webkit-animation: slideInRight 4.9s forwards;
+      -moz-animation: slideInRight 4.9s forwards;
+      animation: slideInRight 4.9s forwards;
+    }
+
+     .grad6 {
+  
+      position: relative;
+     
+      -webkit-animation: slideInRight 5.3s forwards;
+      -moz-animation: slideInRight 5.3s forwards;
+      animation: slideInRight 5.3s forwards;
+      animation-direction: left;
+    }
+.grad7 {
+
+  position: relative;
+  -webkit-animation: slideInRight 1.3s forwards;
+  -moz-animation: slideInRight 1.3s forwards;
+  animation: slideInRight 1.3s forwards;
+
+}
+.grad8 {
+
+  position: relative;
+  -webkit-animation: slideInRight 2.0s forwards;
+  -moz-animation: slideInRight 2.0s forwards;
+  animation: slideInRight 2.0s forwards;
+
+}
+.grad8 {
+
+  position: relative;
+  -webkit-animation: slideInRight 1.5s forwards;
+  -moz-animation: slideInRight 1.5s forwards;
+  animation: slideInRight 1.5s forwards;
+
+}
+.grad9 {
+
+  position: relative;
+  -webkit-animation: slideInRight 1.1s forwards;
+  -moz-animation: slideInRight 1.1s forwards;
+  animation: slideInRight 1.1s forwards;
+
+}
+ @-webkit-keyframes slideIn {
+   0% {
+     transform: translateX(-900px);
+   }
+
+   100% {
+     transform: translateX(0);
+   }
+ }
+
+ @-moz-keyframes slideIn {
+   0% {
+     transform: translateX(-900px);
+   }
+
+   100% {
+     transform: translateX(0);
+   }
+ }
+
+ @keyframes slideIn {
+   0% {
+     transform: translateX(-900px);
+   }
+
+   100% {
+     transform: translateX(0);
+   }
+ }
+
+button:disabled {
+  background-color: gray;
+}
+
+button:disabled:hover {
+  text-decoration: none;
+  color: gray;
+  
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  width: 70px;
+  height: 70px;
+  transition: 0.5s;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.faAlign {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navA {
+  text-decoration: none;
+}
+
+.navA:hover {
+  border-bottom: 1px slategray solid;
+    border-top: 1px slategray solid;
+    transition: 0.5s;
+
+
+}
+.hero{
+  background-image: url('https://i.ibb.co/7CR3N00/mnj2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  -webkit-animation: slideUp 1.3s forwards;
+  -moz-animation: slideUp 1.3s forwards;
+  animation: slideUp 1.3s forwards;
+}
+
+.nav1{
+    position: relative;
+    top: 0px;
+    -webkit-animation: slideUp 2.3s forwards;
+    -moz-animation: slideUp 2.3s forwards;
+    animation: slideUp 2.3s forwards;
+  }
+
+ 
+@-webkit-keyframes slideUp {
+  0% {
+    transform: translateY(-900px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideUp {
+  0% {
+    transform: translateY(-900px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(-900px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  width: 70px;
+  height: 70px;
+  transition: 0.5s;
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-moz-keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
