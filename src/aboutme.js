@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="w-full h-[800px] md:flex  justify-between "   >
       <div className='md:w-[600px] w-[400px] mt-4 bg-slate-200 rounded-2xl px-4 right-[20px] md:mx-0  mx-auto  '>
-        <h1 className="text-center text-2xl grad2 text-slate-500 ">About Me </h1><hr />
+        <h1 className="text-center text-[20px] font-bold grad2 text-slate-500 my-5">About Me </h1><hr />
         
         <div className="grad">
           <p className='text-[12px]  text-slate-500 md:text-[18px]  pl-4 pr-4  border-slate-400 text-justify'>
@@ -28,7 +28,7 @@ export default function AboutMe() {
             providing websites for businesses and fast reliable e-portal and ticketing systems for Schools.</p></div></div>
         
       <div className='md:w-[600px] w-[400px] mt-4 text-justify bg-slate-200 rounded-2xl px-4 md:mx-0 mx-auto  '>
-        <h1 className='text-center text-2xl text-slate-500 grad5 md:left-0 left-[20px]'>Another Part of Me</h1>
+        <h1 className='text-center text-[20px] text-slate-500 grad5 md:left-0 left-[20px] my-5 font-bold '>Another Part of Me</h1>
         <div className="grad6 md:left-0 ">
           <p className='text-[12px]  text-slate-500 md:text-[18px]  px-4  border-slate-400'>
           Growing up under a Father who is a multi-media enthusiast, first a Photographer, then later owned a music recording and Video editing studio,

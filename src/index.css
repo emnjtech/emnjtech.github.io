@@ -305,3 +305,15 @@ html {
   }
 }
 
+.sliderItem{
+  width: 200px;
+  height: 600px;
+
+
+
+}
+.slick-prev:before,
+.slick-next::before{
+  color: darkviolet !important;
+}
+

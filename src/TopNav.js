@@ -26,7 +26,7 @@ export default function TopNav() {
             <Link to="/projects" className='navA'><li>My Projects</li></Link>
           </ul>
             
-            <Link to="/message"> <button className='px-4 py-2 text-sm'>Leave a Message</button></Link>
+            <Link to="/message"> <button className='px-4 py-2 text-sm'>Hire Me</button></Link>
           </div>
           <div className='md:hidden'  onClick={handleClick}>
           {!nav ? <MenuIcon className='w-7 stroke-slate-600' /> : <XIcon className='w-7 stroke-slate-600'/>}
@@ -42,7 +42,7 @@ export default function TopNav() {
             
             <div className='flex flex-col mb-4'>
               
-          <Link to="/message"> <button className='px-8 py-3'>Leave a Message</button></Link>
+          <Link to="/message"> <button className='px-8 py-3'>Hire Me</button></Link>
               </div>
         </ul>
         <div>
