@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon} from '@heroicons/react/solid'
 import logo from './assets/logonew.png'
 import {Link} from 'react-router-dom'
 
