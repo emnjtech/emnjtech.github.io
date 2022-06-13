@@ -23,7 +23,7 @@ export default function Hero() {
 
           </div>
           <div className='px-4 w-full md:w-[35%] ml-auto md:mt-0 mt-8'>
-         <img src={design} alt='designs' className='w-full grad8'/>
+         <img src={design} alt='designs' className='grad8'/>
             </div>
         
      
