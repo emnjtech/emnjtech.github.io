@@ -7,6 +7,7 @@ import Message from './Message'
 import Designs from './designs'
 import Projects from './projects';
 import Footer from './Footer';
+import PageNotFound from './PageNotFound';
 
 
 import Hero from './Hero';
@@ -14,7 +15,7 @@ import Hero from './Hero';
 function App() {
   return (
     <div>
-      <div className="container h-[inherit] md:h-[inherit] bg-[url('https://i.ibb.co/wcT26nY/emjnph.jpg')] md:bg-[url('https://i.ibb.co/zrGQxNC/emn.jpg')] bg-cover bg-no-repeat">
+      <div className="container h-full md:h-[inherit] bg-[url('https://i.ibb.co/wcT26nY/emjnph.jpg')] md:bg-[url('https://i.ibb.co/zrGQxNC/emn.jpg')] bg-cover bg-no-repeat">
     
       <BrowserRouter>
         <Routes>
@@ -24,7 +25,14 @@ function App() {
                 <Hero />
                 <Footer />
               
-            </>} />
+              </>} />
+            <Route path="*" element={
+              <>
+                
+                <PageNotFound />
+                <Footer />
+
+              </>} />
           <Route path="/aboutme" element={
             <>
               <TopNav />

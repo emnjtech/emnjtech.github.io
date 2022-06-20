@@ -7,7 +7,7 @@ export default function Projects() {
                 <img src={underC} className='w-[400px] h-[400px] mx-auto' alt='Page under construction' />
             </div>
             <h1 className='text-2xl font-bold text-center'>I'm sorry you had to see this.</h1>
-            <h1 className='text-[15px] text-center px-4 '>This page is undergoing a rebuilding, I promise it won't take long. please check again after 20th of June.</h1>
+            <h1 className='text-[15px] text-center px-4 '>This page is undergoing a rebuilding, I promise it won't take long. please check back soon.</h1>
             
       </div>
     

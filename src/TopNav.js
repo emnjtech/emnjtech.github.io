@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 
-import { MenuIcon, XIcon} from '@heroicons/react/solid'
+import { MenuIcon, XIcon, ArrowCircleDownIcon} from '@heroicons/react/solid'
 import logo from './assets/logonew.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import cv from './assets/myCV.pdf'
 
 
 
@@ -24,8 +25,12 @@ export default function TopNav() {
             <Link to="/aboutme" className='navA'><li>About Me</li></Link>
             <Link to="/designs" className='navA'><li>My Designs</li></Link>
             <Link to="/projects" className='navA'><li>My Projects</li></Link>
-          </ul>
             
+
+          </ul>
+          
+          <div className='flex items-start py-2 px-4'><a href={cv} className="text-slate-500" download>Download CV </a><ArrowCircleDownIcon className='w-5 h-6 font-bold text-slate-500 ' />
+          </div>
             <Link to="/message"> <button className='px-4 py-2 text-sm'>Hire Me</button></Link>
           </div>
           <div className='md:hidden'  onClick={handleClick}>
@@ -39,10 +44,12 @@ export default function TopNav() {
         <Link to="/designs"><li className='border-b-2 border-zinc-400 w-full'>My Designs</li></Link>
          
            <Link to="/projects"><li className='border-b-2 border-zinc-400 w-full'>My Projects</li></Link> 
-            
+        <div className='flex items-start py-2 px-2'><a href={cv} className="text-slate-200" download>Download CV </a><ArrowCircleDownIcon className='w-5 h-6 font-bold text-slate-200 ' />
+        </div>
             <div className='flex flex-col mb-4'>
-              
+          
           <Link to="/message"> <button className='px-8 py-3'>Hire Me</button></Link>
+         
               </div>
         </ul>
         <div>
