@@ -15,7 +15,7 @@ import Hero from './Hero';
 function App() {
   return (
     <div>
-      <div className="container h-full md:h-[inherit] bg-[url('https://i.ibb.co/wcT26nY/emjnph.jpg')] md:bg-[url('https://i.ibb.co/zrGQxNC/emn.jpg')] bg-cover bg-no-repeat">
+      <div className="w-full h-full md:h-[inherit] bg-[url('https://i.ibb.co/wcT26nY/emjnph.jpg')] md:bg-[url('https://i.ibb.co/zrGQxNC/emn.jpg')] bg-cover bg-no-repeat">
     
       <BrowserRouter>
         <Routes>
