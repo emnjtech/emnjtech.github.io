@@ -108,7 +108,7 @@ const handleChange = (e) => {
     />
     </div>
  <ReCAPTCHA
-              sitekey="6LcDyC4gAAAAACsq2Z-nI-OmYHn8nframdbcoNyu"
+              sitekey="6LdXOLQgAAAAAI4LhnQLTv6FIC7T5Kt0kIFpcgYR"
     onChange={onChangeCaptcha}
   />
 
