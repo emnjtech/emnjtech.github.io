@@ -26,7 +26,7 @@ import gent from './assets/gent.png'
                        
 
                    </ul>
-                   <a href="http://shoeshop.emnj.tech/"><button className='text-xl font-bold text-slate-500 p-2' >Take a tour</button></a>
+                   <a href="http://commerce.emnj.tech/"><button className='text-xl font-bold text-slate-500 p-2' >Take a tour</button></a>
                    <div className='md:w-full  mx-auto bg-slate-500 w-full rounded-2xl pb-10 mb-8 md:mb-8 p-5 mt-4'>
                        
                        <h1 className='text-[15px] text-center px-4 text-white'>Note: This page is undergoing a rebuild. , I promise it won't take long. More projects will be added soon. Please check again soon </h1>
